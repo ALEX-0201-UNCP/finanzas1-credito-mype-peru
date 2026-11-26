@@ -113,3 +113,88 @@ else:
     else:
         print("INEI población FALLO | HTTP", r.status_code)
     time.sleep(PAUSA_SEG)
+    
+    # ---------------------------------------------------------------------
+# BLOQUE D - SBS: Créditos directos por oficina de las Cajas Rurales (C-2234)
+# ---------------------------------------------------------------------
+CODIGO_CR = "C-2234"
+DESTINO_CR = os.path.join(DIR_BASE, "datos_crudos", "cajas_rurales")
+os.makedirs(DESTINO_CR, exist_ok=True)
+
+ok_cr = fallidos_cr = ya_cr = 0
+with open(RUTA_LOG, "a", encoding="utf-8") as log:
+    log.write(f"\n=== {time.strftime('%Y-%m-%d %H:%M:%S')} | {CODIGO_CR} | {FECHA_INICIO} a {FECHA_CORTE} ===\n")
+    for anio, mes in meses:
+        nombre_mes, abrev = MESES[mes]
+        archivo = f"{CODIGO_CR}-{abrev}{anio}.XLS"
+        ruta = os.path.join(DESTINO_CR, archivo)
+        if os.path.exists(ruta):
+            ya_cr += 1
+            continue
+        url = f"https://intranet2.sbs.gob.pe/estadistica/financiera/{anio}/{nombre_mes}/{archivo}"
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=30)
+            marca = time.strftime("%Y-%m-%d %H:%M:%S")
+            if r.status_code == 200:
+                with open(ruta, "wb") as f:
+                    f.write(r.content)
+                ok_cr += 1
+                print(f"OK     CR {anio}-{mes:02d} | HTTP 200 | {len(r.content)} bytes")
+                log.write(f"{marca} | {url} | HTTP 200 | {len(r.content)} bytes\n")
+            else:
+                fallidos_cr += 1
+                print(f"FALLO  CR {anio}-{mes:02d} | HTTP {r.status_code}")
+                log.write(f"{marca} | {url} | HTTP {r.status_code} | FALLO\n")
+        except requests.RequestException as e:
+            fallidos_cr += 1
+            print(f"ERROR  CR {anio}-{mes:02d} | {e}")
+            log.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} | {url} | ERROR: {e}\n")
+        time.sleep(PAUSA_SEG)
+    resumen = f"RESUMEN CAJAS RURALES: {ok_cr} descargados, {ya_cr} ya existían, {fallidos_cr} fallidos de {len(meses)} meses"
+    print(resumen)
+    log.write(resumen + "\n")
+    
+    # ---------------------------------------------------------------------
+# BLOQUE E - SBS: otros reportes de créditos directos por oficina
+# Para agregar otra entidad, añadir una línea al diccionario.
+# ---------------------------------------------------------------------
+REPORTES_EXTRA = {
+    "empresas_financieras": "B-3241",
+    "empresas_de_creditos": "C-4228",
+}
+
+for carpeta, codigo in REPORTES_EXTRA.items():
+    destino = os.path.join(DIR_BASE, "datos_crudos", carpeta)
+    os.makedirs(destino, exist_ok=True)
+    ok_x = fallidos_x = ya_x = 0
+    with open(RUTA_LOG, "a", encoding="utf-8") as log:
+        log.write(f"\n=== {time.strftime('%Y-%m-%d %H:%M:%S')} | {codigo} | {FECHA_INICIO} a {FECHA_CORTE} ===\n")
+        for anio, mes in meses:
+            nombre_mes, abrev = MESES[mes]
+            archivo = f"{codigo}-{abrev}{anio}.XLS"
+            ruta = os.path.join(destino, archivo)
+            if os.path.exists(ruta):
+                ya_x += 1
+                continue
+            url = f"https://intranet2.sbs.gob.pe/estadistica/financiera/{anio}/{nombre_mes}/{archivo}"
+            try:
+                r = requests.get(url, headers=HEADERS, timeout=30)
+                marca = time.strftime("%Y-%m-%d %H:%M:%S")
+                if r.status_code == 200:
+                    with open(ruta, "wb") as f:
+                        f.write(r.content)
+                    ok_x += 1
+                    print(f"OK     {carpeta} {anio}-{mes:02d} | HTTP 200 | {len(r.content)} bytes")
+                    log.write(f"{marca} | {url} | HTTP 200 | {len(r.content)} bytes\n")
+                else:
+                    fallidos_x += 1
+                    print(f"FALLO  {carpeta} {anio}-{mes:02d} | HTTP {r.status_code}")
+                    log.write(f"{marca} | {url} | HTTP {r.status_code} | FALLO\n")
+            except requests.RequestException as e:
+                fallidos_x += 1
+                print(f"ERROR  {carpeta} {anio}-{mes:02d} | {e}")
+                log.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} | {url} | ERROR: {e}\n")
+            time.sleep(PAUSA_SEG)
+        resumen = f"RESUMEN {carpeta}: {ok_x} descargados, {ya_x} ya existían, {fallidos_x} fallidos de {len(meses)} meses"
+        print(resumen)
+        log.write(resumen + "\n")
