@@ -1,0 +1,51 @@
+cajas_municipales: 96 archivos
+cajas_rurales: 96 archivos
+empresas_financieras: 96 archivos
+empresas_de_creditos: 96 archivos
+
+=== AVISOS ===
+AVISO: B-3241-di2022.XLS: no se encontró la fila de encabezado 'Empresa'
+AVISO: B-3241-no2022.XLS: no se encontró la fila de encabezado 'Empresa'
+AVISO: C-4228-ab2022.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-ab2024.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-ag2021.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-ag2022.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-ag2023.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-ag2024.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-di2021.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-di2022.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-di2023.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-di2024.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-en2022.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-en2023.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-en2024.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-fe2022.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-fe2023.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-fe2024.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-jl2021.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-jl2022.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-jl2023.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-jl2024.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-jn2021.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-jn2022.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-jn2023.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-jn2024.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-ma2022.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-ma2023.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-ma2024.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-my2022.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-my2024.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-no2021.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-no2022.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-no2023.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-no2024.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-oc2021.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-oc2022.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-oc2023.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-oc2024.XLS: el crédito no coincide con 'Total general'
+AVISO: C-4228-se2021.XLS: el crédito no coincide con 'Total general'
+... y 3 avisos más
+
+Panel guardado: C:\Users\Usuario\Documents\practicas ivan\FINANZAS UNIDAD 2\FINANZAS_UNIDAD_2_estructura\FINANZAS UNIDAD 2\3_Base_de_datos_y_codigo_Alex_Chancha\datos_procesados\datos_procesados_2024200492K.csv
+Filas: 2100 | departamentos: 25 | meses: 84
+SHA-256: 6b702275d5812d2073e7f4d93ec7bc68f0a20c10903362f577b03335e7fb0268

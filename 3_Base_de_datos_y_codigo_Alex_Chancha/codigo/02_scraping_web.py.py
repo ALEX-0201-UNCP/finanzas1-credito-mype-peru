@@ -8,7 +8,7 @@ import time
 import requests
 
 # Parámetros congelados
-FECHA_INICIO = "2018-01"
+FECHA_INICIO = "2017-01"
 FECHA_CORTE = "2025-12"
 CODIGO_REPORTE = "C-1234"      # Créditos directos y depósitos por oficina - Cajas Municipales
 PAUSA_SEG = 1

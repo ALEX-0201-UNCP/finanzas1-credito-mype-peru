@@ -516,3 +516,63 @@ RESUMEN empresas_financieras: 0 descargados, 96 ya existían, 0 fallidos de 96 m
 2026-11-25 19:04:09 | https://intranet2.sbs.gob.pe/estadistica/financiera/2025/Noviembre/C-4228-no2025.XLS | HTTP 200 | 85504 bytes
 2026-11-25 19:04:10 | https://intranet2.sbs.gob.pe/estadistica/financiera/2025/Diciembre/C-4228-di2025.XLS | HTTP 200 | 85504 bytes
 RESUMEN empresas_de_creditos: 96 descargados, 0 ya existían, 0 fallidos de 96 meses
+
+=== 2026-11-26 19:17:39 | C-1234 | 2017-01 a 2025-12 ===
+2026-11-26 19:17:39 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Enero/C-1234-en2017.XLS | HTTP 200 | 225280 bytes
+2026-11-26 19:17:41 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Febrero/C-1234-fe2017.XLS | HTTP 200 | 225792 bytes
+2026-11-26 19:17:42 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Marzo/C-1234-ma2017.XLS | HTTP 200 | 226816 bytes
+2026-11-26 19:17:43 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Abril/C-1234-ab2017.XLS | HTTP 200 | 228352 bytes
+2026-11-26 19:17:44 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Mayo/C-1234-my2017.XLS | HTTP 200 | 228352 bytes
+2026-11-26 19:17:45 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Junio/C-1234-jn2017.XLS | HTTP 200 | 228864 bytes
+2026-11-26 19:17:46 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Julio/C-1234-jl2017.XLS | HTTP 200 | 237568 bytes
+2026-11-26 19:17:48 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Agosto/C-1234-ag2017.XLS | HTTP 200 | 238080 bytes
+2026-11-26 19:17:49 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Setiembre/C-1234-se2017.XLS | HTTP 200 | 238080 bytes
+2026-11-26 19:17:50 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Octubre/C-1234-oc2017.XLS | HTTP 200 | 239616 bytes
+2026-11-26 19:17:51 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Noviembre/C-1234-no2017.XLS | HTTP 200 | 240640 bytes
+2026-11-26 19:17:52 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Diciembre/C-1234-di2017.XLS | HTTP 200 | 242176 bytes
+RESUMEN: 12 descargados, 96 ya existían, 0 fallidos de 108 meses
+
+=== 2026-11-26 19:17:53 | C-2234 | 2017-01 a 2025-12 ===
+2026-11-26 19:17:53 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Enero/C-2234-en2017.XLS | HTTP 200 | 67584 bytes
+2026-11-26 19:17:55 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Febrero/C-2234-fe2017.XLS | HTTP 200 | 67584 bytes
+2026-11-26 19:17:56 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Marzo/C-2234-ma2017.XLS | HTTP 200 | 67584 bytes
+2026-11-26 19:17:57 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Abril/C-2234-ab2017.XLS | HTTP 200 | 67072 bytes
+2026-11-26 19:17:58 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Mayo/C-2234-my2017.XLS | HTTP 200 | 67584 bytes
+2026-11-26 19:17:59 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Junio/C-2234-jn2017.XLS | HTTP 200 | 71680 bytes
+2026-11-26 19:18:00 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Julio/C-2234-jl2017.XLS | HTTP 200 | 71168 bytes
+2026-11-26 19:18:01 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Agosto/C-2234-ag2017.XLS | HTTP 200 | 71168 bytes
+2026-11-26 19:18:02 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Setiembre/C-2234-se2017.XLS | HTTP 200 | 71168 bytes
+2026-11-26 19:18:04 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Octubre/C-2234-oc2017.XLS | HTTP 200 | 70656 bytes
+2026-11-26 19:18:05 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Noviembre/C-2234-no2017.XLS | HTTP 200 | 70144 bytes
+2026-11-26 19:18:06 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Diciembre/C-2234-di2017.XLS | HTTP 200 | 70144 bytes
+RESUMEN CAJAS RURALES: 12 descargados, 96 ya existían, 0 fallidos de 108 meses
+
+=== 2026-11-26 19:18:07 | B-3241 | 2017-01 a 2025-12 ===
+2026-11-26 19:18:07 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Enero/B-3241-en2017.XLS | HTTP 200 | 2849280 bytes
+2026-11-26 19:18:09 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Febrero/B-3241-fe2017.XLS | HTTP 200 | 2814464 bytes
+2026-11-26 19:18:11 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Marzo/B-3241-ma2017.XLS | HTTP 200 | 2887168 bytes
+2026-11-26 19:18:12 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Abril/B-3241-ab2017.XLS | HTTP 200 | 2887168 bytes
+2026-11-26 19:18:14 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Mayo/B-3241-my2017.XLS | HTTP 200 | 2849280 bytes
+2026-11-26 19:18:15 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Junio/B-3241-jn2017.XLS | HTTP 200 | 2811392 bytes
+2026-11-26 19:18:17 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Julio/B-3241-jl2017.XLS | HTTP 200 | 2850304 bytes
+2026-11-26 19:18:18 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Agosto/B-3241-ag2017.XLS | HTTP 200 | 2848768 bytes
+2026-11-26 19:18:20 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Setiembre/B-3241-se2017.XLS | HTTP 200 | 2851840 bytes
+2026-11-26 19:18:22 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Octubre/B-3241-oc2017.XLS | HTTP 200 | 2813440 bytes
+2026-11-26 19:18:24 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Noviembre/B-3241-no2017.XLS | HTTP 200 | 2812928 bytes
+2026-11-26 19:18:25 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Diciembre/B-3241-di2017.XLS | HTTP 200 | 2814976 bytes
+RESUMEN empresas_financieras: 12 descargados, 96 ya existían, 0 fallidos de 108 meses
+
+=== 2026-11-26 19:18:26 | C-4228 | 2017-01 a 2025-12 ===
+2026-11-26 19:18:26 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Enero/C-4228-en2017.XLS | HTTP 200 | 101888 bytes
+2026-11-26 19:18:28 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Febrero/C-4228-fe2017.XLS | HTTP 200 | 102400 bytes
+2026-11-26 19:18:29 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Marzo/C-4228-ma2017.XLS | HTTP 200 | 102400 bytes
+2026-11-26 19:18:30 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Abril/C-4228-ab2017.XLS | HTTP 200 | 102400 bytes
+2026-11-26 19:18:31 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Mayo/C-4228-my2017.XLS | HTTP 200 | 102912 bytes
+2026-11-26 19:18:32 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Junio/C-4228-jn2017.XLS | HTTP 200 | 100864 bytes
+2026-11-26 19:18:33 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Julio/C-4228-jl2017.XLS | HTTP 200 | 100352 bytes
+2026-11-26 19:18:34 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Agosto/C-4228-ag2017.XLS | HTTP 200 | 100352 bytes
+2026-11-26 19:18:35 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Setiembre/C-4228-se2017.XLS | HTTP 200 | 100352 bytes
+2026-11-26 19:18:37 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Octubre/C-4228-oc2017.XLS | HTTP 200 | 100864 bytes
+2026-11-26 19:18:38 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Noviembre/C-4228-no2017.XLS | HTTP 200 | 100352 bytes
+2026-11-26 19:18:39 | https://intranet2.sbs.gob.pe/estadistica/financiera/2017/Diciembre/C-4228-di2017.XLS | HTTP 200 | 100352 bytes
+RESUMEN empresas_de_creditos: 12 descargados, 96 ya existían, 0 fallidos de 108 meses
