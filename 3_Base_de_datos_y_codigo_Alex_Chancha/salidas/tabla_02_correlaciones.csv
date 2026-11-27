@@ -1,0 +1,5 @@
+﻿,ln_credito,ln_depositos,ln_pbi,ln_poblacion
+ln_credito,1.0,0.962,0.799,0.813
+ln_depositos,0.962,1.0,0.873,0.804
+ln_pbi,0.799,0.873,1.0,0.869
+ln_poblacion,0.813,0.804,0.869,1.0
